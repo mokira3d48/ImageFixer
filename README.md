@@ -32,8 +32,8 @@ and `pip` installed on your machine. And then run the following command lines.
 ### For Linux
 
 ```bash
-git clone git@github.com:mokira3d48/PyOrigin.git my_project
-cd my_project
+git clone git@github.com:mokira3d48/ImageFixer.git image_fixer
+cd image_fixer
 sudo rm -r .git
 git init
 ```
@@ -53,7 +53,7 @@ named `env`;
 ### For Windows
 
 ```bash
-git clone git@github.com:mokira3d48/image_fixer.git image_fixer
+git clone git@github.com:mokira3d48/ImageFixer.git image_fixer
 cd image_fixer
 ```
 
