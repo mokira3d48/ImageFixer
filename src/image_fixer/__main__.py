@@ -35,7 +35,7 @@ def main():
     output_folder = args.target
     os.makedirs(output_folder, exist_ok=True)
 
-    for file_name in tqdm(files, description="Processing..."):
+    for file_name in tqdm(files, desc="Cleaning"):
         file_path = os.path.join(folder, file_name)
         if file_name.lower().endswith(('.jpg', '.jpeg', '.png')):
             try:
